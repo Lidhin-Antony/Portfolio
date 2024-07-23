@@ -53,7 +53,12 @@ bars.addEventListener("click", () => {
   menu.classList.toggle("mobile-menu");
 });
 
-const sun = document.querySelector(".fa-sun");
+// const sun = document.querySelector(".fa-sun");
+
+// sun.addEventListener("click", () => {
+//   document.body.classList.toggle("dark-mode");
+// });
+const sun = document.querySelector(".toggleSwitch");
 
 sun.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
